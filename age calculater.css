@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 600px;
+    height: 600px;
+    background-color: rgb(11, 12, 12);
+    color: rgb(227, 238, 248);
+    padding: 10px;
+}
+.calculater{
+    width: 100%;
+    max-width: 100%;
+    margin-left: 10px;
+    margin-top: 45px;
+    text-align: center;
+}
+.calculater h1{
+    font-size: 45px;
+}
+.input-box{
+    margin: 40px;
+    background-color: aliceblue;
+    padding: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+}
+.input-box input{
+    flex: 1;
+    padding: 20px 14px;
+    border: 0;
+    outline-style: groove;
+    font-size: 18px;
+    border-radius: 5px;
+    position: relative;
+}
+ .input-box button{
+    width: 100px;
+    height: 70px;
+    cursor: pointer;
+    padding: 15px 14px;
+    outline-style: groove;
+    border-radius: 10px;
+    font-weight: 500;
+    
+    
+}
+.input-box ::-webkit-caender-picker-indicater{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: auto;
+    position: absolute;
+    background-position: calc(100% - 10px);
+    background-size: 30px;
+    cursor: pointer;
+    height: auto;
+}
+#result{
+   font-size: 15px;
+}
